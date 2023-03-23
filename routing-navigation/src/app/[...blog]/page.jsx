@@ -1,4 +1,5 @@
 const Blog = ({ params }) => {
+  console.log(params)
   return (
     <div>Blog Page : {params.blog}</div>
   )
